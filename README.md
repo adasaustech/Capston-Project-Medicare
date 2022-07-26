@@ -9,7 +9,7 @@ Email: rishabhjainbajaj@yahoo.com
 Date created: 25-07-2022
 Program Name: Medicare
 GitHub Repository: 
-https://github.com/adasaustech/Capston-Project-Medicare
+https://github.com/adasaustech/Capstone-Project-Medicare
 
 Program Background :
  Medicare is a company that supplies medicines and a couple of other healthcare essentials at an affordable price. It was established in 2012 in Delhi, India. It had been serving fine all these years, however, the business analysts noticed a decline in sales since 2017. They found out that online ordering of medicines with companies, such as 100mg and mfine are gaining more profits by eliminating middlemen from the equation. As a result, the team decided to hire a Full Stack developer to develop a healthcare web application with a rich and user-friendly interface.
