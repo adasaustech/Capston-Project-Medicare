@@ -1,5 +1,5 @@
 # Capstone-Project-Medicare
-Simplilearn final pproject Medicare
+Simplilearn final project Medicare
 
 Capstone Project Medicare
 
