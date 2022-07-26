@@ -1,4 +1,4 @@
-def containerName="springbootdocker"
+def containerName="docker"
 def tag="latest"
  
 node {
@@ -12,8 +12,8 @@ node {
         sh "mvn clean install"
     }
 
-    stage("Image Prune"){
-         sh "docker image prune -f"
+    stage("Image medicareimage"){
+         sh "docker image medicareimage -f"
     }
 
     stage('Image Build'){
