@@ -45,7 +45,7 @@ Sprint Table:
 SPRINT	WORK DONE	TIME PERIOD	RESULT
 1	Created Databases in MySQL	18/07/2022 to 19/07/2022	Done ✓
 2	Designed HTML pages	20/07/2022 to 22/07/2022	Done ✓
-3	Server-side coding	23/07/2022 to 24/07/22	Done ✓
-4	Testing	24/07/22 to 25/07/22	Done ✓
+3	Server-side coding	23/07/2022 to 25/07/22	Done ✓
+4	Testing	25/07/22 to 26/07/22	Done ✓
 
 
