@@ -1,7 +1,7 @@
     body {
   font-family: "Open Sans", sans-serif;
   line-height: 1.25;
-  background-color: rgb(128, 255, 128);
+  background-color: #0080FF;
 }
 a
 {
@@ -124,7 +124,7 @@ table th {
     }
     
     .topnav a.active {
-      background-color: rgb(128, 255, 0);
+      background-color: #2196F3;
       color: white;
     }
     
@@ -177,7 +177,7 @@ table th {
    left: 0;
    bottom: 0;
    width: 100%;
-   background-color:#ccc;
+   background-color: #ccc;
    color:black;
    text-align: center;
 }

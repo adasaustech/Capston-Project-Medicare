@@ -19,11 +19,11 @@ The art of medicine consists in amusing the patient while nature cures the <dise
 We sell all kinds of Medicines and Drugs :-
     Make Your Healthcare Advanced With Medicare
 <br>
-Contact us at :- medicare@gmail.com
+Contact us at :- medicaretest@gmail.com
 <br>
 or
 <br>
-contact us at Instagram :- medicare_1431
+contact us at Instagram :- medicaretest_007
 </div>
 
 </body>

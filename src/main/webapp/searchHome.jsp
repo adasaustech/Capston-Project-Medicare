@@ -56,7 +56,7 @@ catch(Exception e){
 <br>
  <br>
  <div class="footer">
-<p>All right reserved by Rishabh Jain</p>
+<p>All right reserved by BTech Days</p>
  </div>
 
 </body>

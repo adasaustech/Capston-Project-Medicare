@@ -10,7 +10,7 @@
     <br>
     <div class="topnav sticky">
    <%String email=session.getAttribute("email").toString(); %>
-<center><h2>Medicare Admin</h2></center>
+<center><h2>Medicare App Admin</h2></center>
 <a href="addNewProduct.jsp">Add New Product <i class='fas fa-plus-square'></i></a>
 <a href="allProductEditProduct.jsp">All Products & Edit Products <i class='fab fa-elementor'></i></a>
 <a href="messagesReceived.jsp">Messages Received <i class='fas fa-comment-alt'></i></a>

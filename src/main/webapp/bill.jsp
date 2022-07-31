@@ -22,7 +22,7 @@ ResultSet rs1=st.executeQuery("select * from users inner join cart where cart.em
 while(rs1.next())
 {
 %>
-<h3>Sporty Shoes Bill</h3>
+<h3>Medicare Application</h3>
 <hr>
 <div class="left-div"><h3>Name: <%=rs1.getString(1) %> </h3></div>
 <div class="right-div-right"><h3>Email: <%=email %> </h3></div>
