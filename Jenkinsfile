@@ -1,4 +1,4 @@
-def containerName="dockermedicare"
+def containerName="dockerimage"
 def tag="latest"
  
 node {
