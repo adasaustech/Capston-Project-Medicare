@@ -1,4 +1,4 @@
-def containerName="springbootdocker"
+def containerName="dockermedicare"
 def tag="latest"
  
 node {
