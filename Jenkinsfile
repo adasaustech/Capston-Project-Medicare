@@ -17,15 +17,15 @@ node {
     }
 
     stage('Image Build'){
-        sh "docker build -t $containerName:${env.BUILD_NUMBER} --pull --no-cache ."
+        sh "docker build -t $dockerimage:${env.BUILD_NUMBER} --pull --no-cache ."
         echo "Image build complete"
     }
     stage ('Run Application') {
     try {
       // Stop existing Container
-       //sh 'docker rm $containerName -f'
+       //sh 'docker rm $dockerimage -f'
       // Start database container here
-      sh "docker run -d --name $containerName $containerName:${env.BUILD_NUMBER}"
+      sh "docker run -d --name $dockerimage $dockerimage:${env.BUILD_NUMBER}"
     } 
 	catch (error) {
     } finally {
