@@ -1,4 +1,4 @@
-def containerName="docker"
+def containerName="dockerimage"
 def tag="latest"
  
 node {
@@ -12,8 +12,8 @@ node {
         sh "mvn clean install"
     }
 
-    stage("Image medicareimage"){
-         sh "docker image medicareimage -f"
+    stage("Image dockerimage"){
+         sh "docker image dockerimage -f"
     }
 
     stage('Image Build'){
