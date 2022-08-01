@@ -1,4 +1,4 @@
-def containerName="dockerimage"
+def containerName="springbootdocker"
 def tag="latest"
  
 node {
@@ -12,20 +12,21 @@ node {
         sh "mvn clean install"
     }
 
-    stage("Image dockerimage"){
-         sh "docker image dockerimage -f"
+    stage("Image Prune"){
+         sh "docker image prune -f"
     }
 
     stage('Image Build'){
-        sh "docker build -t $dockerimage:${env.BUILD_NUMBER} --pull --no-cache ."
+        sh "docker build -t $containerName:${env.BUILD_NUMBER} --pull --no-cache ."
         echo "Image build complete"
     }
+   
     stage ('Run Application') {
     try {
       // Stop existing Container
-       //sh 'docker rm $dockerimage -f'
+       //sh 'docker rm $containerName -f'
       // Start database container here
-      sh "docker run -d --name $dockerimage $dockerimage:${env.BUILD_NUMBER}"
+      sh "docker run -d --name $containerName $containerName:${env.BUILD_NUMBER}"
     } 
 	catch (error) {
     } finally {
@@ -35,9 +36,14 @@ node {
   }
 
 
+  stage('Docker Swarm'){
+       sh "docker swarm init"
+
+        sh "docker service create  -p 8082:80 --name myservice $containerName:${env.BUILD_NUMBER}"
+        echo "Docker Swarm Initiated"
+    }
 
      
 	
  
 }
-
