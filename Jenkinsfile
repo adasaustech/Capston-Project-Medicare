@@ -39,7 +39,7 @@ node {
   stage('Docker Swarm'){
        sh "docker swarm init"
 
-        sh "docker service create  -p 8082:80 --name myservice $containerName:${env.BUILD_NUMBER}"
+        sh "docker service create  -p 8080:80 --name myservice $containerName:${env.BUILD_NUMBER}"
         echo "Docker Swarm Initiated"
     }
 
